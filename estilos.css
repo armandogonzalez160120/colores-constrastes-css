@@ -1,0 +1,16 @@
+/* Prueba 1 
+.encabezado { background-color: navy; color: white; }
+*/
+
+/* Prueba 2 
+.encabezado { background-color: #000080; color: #ffffff; }
+*/
+
+/* Prueba 3. Crea la regla CSS para definir el color blanco utilizando rgb */
+.encabezado {
+    background-color: rgb(0, 0, 128);
+    color: rgb(255, 255, 255);
+}
+
+/* Prueba 4 
+.encabezado { background-color: hsl(240 100% 25%); color: hsl(0, 0%, 100%);}*/
