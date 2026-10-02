@@ -51,3 +51,19 @@ button:focus-visible {
     outline: 3px solid #F59E0B;
     outline-offset: 3px;
 }
+
+/*parte 9*/
+.estado {
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.exito {
+    color: var(--exito);
+    border: 2px solid var(--exito);
+}
+
+.error {
+    color: var(--error);
+    border: 2px dashed var(--error);
+}
