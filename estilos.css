@@ -1,16 +1,53 @@
-/* Prueba 1 
-.encabezado { background-color: navy; color: white; }
-*/
-
-/* Prueba 2 
-.encabezado { background-color: #000080; color: #ffffff; }
-*/
-
-/* Prueba 3. Crea la regla CSS para definir el color blanco utilizando rgb */
-.encabezado {
-    background-color: rgb(0, 0, 128);
-    color: rgb(255, 255, 255);
+:root {
+    --primario: #ff0000;
+    --primario-claro: #D9EAF7;
+    --texto: #1F2937;
+    --fondo: #F7F9FC;
+    --superficie: #FFFFFF;
+    --exito: #166534;
+    --error: #B42318;
 }
 
-/* Prueba 4 
-.encabezado { background-color: hsl(240 100% 25%); color: hsl(0, 0%, 100%);}*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--texto);
+    background: var(--fondo);
+}
+
+.encabezado {
+    padding: 1.5rem;
+    color: white;
+    background: var(--primario);
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.tarjeta {
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+    background: var(--superficie);
+    border: 1px solid #CBD5E1;
+    border-radius: .6rem;
+}
+
+button {
+    padding: .7rem 1rem;
+    color: white;
+    background: var(--primario);
+    border: 2px solid var(--primario);
+    border-radius: .35rem;
+}
+
+button:hover {
+    filter: brightness(.88);
+}
+
+button:focus-visible {
+    outline: 3px solid #F59E0B;
+    outline-offset: 3px;
+}
